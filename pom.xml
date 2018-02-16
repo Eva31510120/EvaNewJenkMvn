@@ -7,13 +7,19 @@
     <groupId>NewJenkinsMaven</groupId>
     <artifactId>NewJenkMvn</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+          <dependency>
+              <groupId>org.seleniumhq.selenium</groupId>
+              <artifactId>selenium-api</artifactId>
+              <version>3.8.0</version>
+          </dependency>
 
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>3.8.0</version>
-    </dependency>
-</dependencies>
+    </dependencies>
 
     
 </project>
