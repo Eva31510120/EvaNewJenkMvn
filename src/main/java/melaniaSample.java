@@ -16,7 +16,8 @@ public class melaniaSample {
 
         driver.findElement(By.xpath("//*[@id=\"lst-ib\"]")).sendKeys("Melania Trump");
         driver.findElement(By.xpath("//*[@id=\"lst-ib\"]")).submit();
-    }
+         System.out.println(driver.findElement(By.xpath("//*[@id=\"resultStats\"]")).getText());
+     }
 }
 
 
